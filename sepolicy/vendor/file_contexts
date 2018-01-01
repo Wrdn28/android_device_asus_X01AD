@@ -16,6 +16,7 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.X01AD                           u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service\.X01AD-libperfmgr                u:object_r:hal_power_default_exec:s0
 
 # Input devices
 /(vendor|system/vendor)/usr/idc(/.*)?                         u:object_r:idc_file:s0
@@ -26,6 +27,9 @@
 
 # Partitions
 /dev/block/platform/soc/7824900.sdhci/by-name/factory                                    u:object_r:factory_block_device:s0
+
+# Hals
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service\.onclite-libperfmgr	u:object_r:hal_power_default_exec:s0
 
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
