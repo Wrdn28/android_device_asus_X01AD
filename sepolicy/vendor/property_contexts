@@ -23,3 +23,6 @@ vendor.debug.camera.prop_bokeh         u:object_r:vendor_camera_prop:s0
 vendor.debug.camera.prop_hdr           u:object_r:vendor_camera_prop:s0
 vendor.debug.camera.prop_dis           u:object_r:vendor_camera_prop:s0
 persist.vendor.camera.value.lux        u:object_r:vendor_camera_prop:s0
+
+# PowerHAL
+vendor.powerhal.state           u:object_r:power_prop:s0

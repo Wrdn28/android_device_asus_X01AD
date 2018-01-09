@@ -5,3 +5,6 @@ vendor_public_prop(vendor_camera_prop);
 vendor_public_prop(hal_fingerprint_prop);
 vendor_public_prop(cdfinger_prop);
 vendor_public_prop(vendor_fingerprint_prop);
+
+# Power HAL
+type power_prop, property_type;
