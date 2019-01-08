@@ -615,6 +615,7 @@ service vendor.msm_irqbl_sdm630 /vendor/bin/msm_irqbalance -f /system/vendor/etc
 on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
+    start vendor.power_off_alarm
 
 # Logcat dump daemon, dumps logs to logdump partition
 service logdumpd /system/bin/logcat -b all -v threadtime -D -w /dev/block/bootdevice/by-name/logdump
