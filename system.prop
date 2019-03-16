@@ -215,6 +215,9 @@ persist.vendor.camera.display.lmax=1280x720
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# Disable vsync for cpu rendered apps
+debug.cpurend.vsync=false
+
 #expose aux camera for below packages
 vendor.camera.aux.packagelist=org.codeaurora.snapcam
 
