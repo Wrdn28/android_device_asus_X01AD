@@ -368,6 +368,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
+# Perf
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.0.vendor \
