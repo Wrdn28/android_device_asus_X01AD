@@ -1,4 +1,4 @@
-#
+q#
 # system.prop for X01AD
 #
 
@@ -85,6 +85,9 @@ pm.dexopt.first-boot=quicken
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.dex2oat-threads=6
 
+# Graphics
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
 
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
