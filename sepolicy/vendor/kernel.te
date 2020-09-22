@@ -6,3 +6,7 @@ allow kernel kernel:capability { kill };
 allow kernel sysfs_battery_supply:file { read };
 allow kernel sysfs_battery_supply:dir { search };
 allow kernel sysfs_battery_supply:file { open };
+
+allow kernel kcal_dev:dir relabelto;
+allow kernel kcal_dev:file relabelto;
+allow kernel kcal_dev:lnk_file relabelto;

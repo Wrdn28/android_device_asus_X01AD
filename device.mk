@@ -527,3 +527,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
     NexusLauncherRelease
+
+# Zen Parts
+PRODUCT_PACKAGES += \
+    ZenParts
