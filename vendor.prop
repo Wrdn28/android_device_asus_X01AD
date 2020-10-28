@@ -169,4 +169,5 @@ ro.lmk.downgrade_pressure=60
 ro.lmk.kill_heaviest_task=false
 ro.statsd.enable=false
 
-#end
+# Zygote
+zygote.critical_window.minute=10
