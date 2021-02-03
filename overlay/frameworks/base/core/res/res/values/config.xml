@@ -338,6 +338,8 @@
     -->
      <string name="config_mainBuiltInDisplayCutout">M 0,0 L -138, 0 L -119.0, 55 L 119.0, 55 L 138, 0 Z</string>
 
+     <dimen name="rounded_corner_radius_bottom">70px</dimen>
+
     <!-- IWLAN data service package name to bind to by default. If none is specified in an overlay, an
          empty string is passed in -->
     <string name="config_wlan_data_service_package">vendor.qti.iwlan</string>
