@@ -74,11 +74,13 @@ debug.stagefright.omx_default_rank=0
 
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+<<<<<<< HEAD
 
 # Display
 vendor.display.use_smooth_motion=1
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+ro.config.avoid_gfx_accel=true
 ro.opengles.version=196610
 debug.sf.disable_backpressure=0
 debug.cpurend.vsync=true
