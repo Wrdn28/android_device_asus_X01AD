@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.a2dp@1.0-impl \
     android.hardware.bluetooth.a2dp@1.0-service
 
+# Adapt Launch
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl \
