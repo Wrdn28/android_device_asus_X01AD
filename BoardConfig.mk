@@ -218,3 +218,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
 include vendor/asus/X01AD/BoardConfigVendor.mk
+
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
