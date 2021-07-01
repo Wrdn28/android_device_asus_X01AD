@@ -28,15 +28,13 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_C_INCLUDES += \
     $(call include-path-for,audio-route) \
-    $(call project-path-for,qcom-audio)/hal \
-    $(call project-path-for,qcom-audio)/hal/msm8974 \
-    $(call project-path-for,qcom-audio)/hal/audio_extn
+    vendor/qcom/opensource/audio-hal/primary-hal/hal \
+    vendor/qcom/opensource/audio-hal/primary-hal/hal/msm8974 \
+    vendor/qcom/opensource/audio-hal/primary-hal/hal/audio_extn \
 
+LOCAL_HEADER_LIBRARIES := qti_kernel_headers
 LOCAL_SRC_FILES := audio_amplifier.c
 LOCAL_MODULE := audio_amplifier.$(TARGET_BOARD_PLATFORM)
-LOCAL_HEADER_LIBRARIES := \
-    generated_kernel_headers \
-    libhardware_headers
 
 LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_VENDOR_MODULE := true
