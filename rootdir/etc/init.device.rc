@@ -25,6 +25,13 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
+# LED notification
+on early-init && property:ro.boot.mode=charger
+    chown system system /sys/class/leds/red/brightness
+    chown system system /sys/class/leds/red/max_brightness
+    write /sys/class/leds/red/brightness 149
+    write /sys/class/leds/red/max_brightness 255
+    
 on early-init
     mkdir /firmware 0771 system system
     mkdir /bt_firmware 0771 system system
