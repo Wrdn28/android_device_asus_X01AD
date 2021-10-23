@@ -379,7 +379,11 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
-    libprotobuf-cpp-lite-vendorcompat
+    libprotobuf-cpp-lite-vendorcompat \
+    extphonelib \
+    extphonelib-product \
+    extphonelib.xml \
+    extphonelib_product.xml \
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
