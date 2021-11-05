@@ -121,7 +121,6 @@ persist.timed.enable=true
 ro.qualcomm.cabl=2
 ro.vendor.display.cabl=2
 
-<<<<<<< HEAD
 #
 # System props for telephony
 # System prop to turn on CdmaLTEPhone always
