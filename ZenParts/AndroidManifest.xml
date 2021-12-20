@@ -33,7 +33,7 @@
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
             android:enabled="true"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
@@ -43,7 +43,7 @@
         </receiver>
         <activity
             android:name="com.asus.zenparts.DeviceSettingsActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="@string/advanced_settings"
             android:launchMode="singleTask">
             <intent-filter>
@@ -80,7 +80,7 @@
         </activity-alias>
         <activity
             android:name=".kcal.KCalSettingsActivity"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/CustomOptionsTheme"
             android:label="@string/advanced_settings_kcal">
             <intent-filter>
