@@ -402,6 +402,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)/qcom-caf
+
 # Tethering
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
