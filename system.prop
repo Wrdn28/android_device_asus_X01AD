@@ -19,7 +19,12 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
+<<<<<<< HEAD
 debug.sf.enable_hwc_vds=1
+=======
+debug.sf.disable_backpressure=1
+debug.sf.enable_hwc_vds=0
+>>>>>>> 8981bff (X01AD: Import recommended pm dex props)
 debug.sf.hw=0
 debug.egl.hw=0
 debug.performance.tuning=1
@@ -77,6 +82,17 @@ mmp.enable.3g2=true
 media.aac_51_output_enabled=true
 av.debug.disable.pers.cache=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
+
+# Dex
+persist.bg.dexopt.enable=true
+dalvik.vm.dexopt.secondary=true
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=6
+
 
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
