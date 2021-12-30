@@ -19,6 +19,7 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
+
 debug.sf.enable_hwc_vds=1
 debug.sf.hw=0
 debug.sf.latch_unsignaled=1
@@ -68,6 +69,14 @@ ro.hardware.vulkan=adreno
 
 # Dex
 dalvik.vm.dex2oat64.enabled=true
+persist.bg.dexopt.enable=true
+dalvik.vm.dexopt.secondary=true
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
+dalvik.vm.dex2oat-threads=6
 
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
