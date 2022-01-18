@@ -123,3 +123,5 @@ ro.surface_flinger.protected_contents=true
 
 #Deep Sleep
 pm.sleep_mode=1
+
+vendor.display.disable_rotator_downscale=1
