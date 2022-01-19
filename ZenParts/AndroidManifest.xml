@@ -90,9 +90,9 @@
         </activity>
         <service
             android:name=".ZenpartsTile"
-            android:enabled="true"
             android:icon="@drawable/qs_asus"
             android:label="@string/advanced_settings"
+			android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE"/>
@@ -102,6 +102,7 @@
             android:name="com.asus.zenparts.DimmerTile"
             android:icon="@drawable/ic_backlight"
             android:label="@string/backlight_dimmer"
+			android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
