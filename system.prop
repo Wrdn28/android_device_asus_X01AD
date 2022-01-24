@@ -84,6 +84,7 @@ av.debug.disable.pers.cache=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Dex
+dalvik.vm.dex2oat64.enabled=true
 persist.bg.dexopt.enable=true
 dalvik.vm.dexopt.secondary=true
 pm.dexopt.install=speed-profile
