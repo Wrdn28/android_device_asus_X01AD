@@ -91,6 +91,7 @@ ro.hardware.vulkan=adreno
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
 
+<<<<<<< HEAD
 #enable offload audio video playback by default
 audio.offload.video=true
 
@@ -120,7 +121,6 @@ persist.timed.enable=true
 ro.qualcomm.cabl=2
 ro.vendor.display.cabl=2
 
-<<<<<<< HEAD
 #
 # System props for telephony
 # System prop to turn on CdmaLTEPhone always
@@ -219,6 +219,9 @@ persist.service.pcsync.enable=0
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# Keyguard
+persist.wm.enable_remote_keyguard_animation=0
 
 # RIL Powersaving
 persist.radio.add_power_save=1
