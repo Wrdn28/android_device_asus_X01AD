@@ -72,10 +72,6 @@ persist.vendor.camera.perflock.enable=0
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
-debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=30
-<<<<<<< HEAD
-
 # Display
 vendor.display.use_smooth_motion=1
 debug.hwui.use_hint_manager=true
@@ -95,6 +91,9 @@ drm.service.enabled=true
 
 # Enforce privapp-permissions whitelist
 ro.control_privapp_permissions=log
+
+# Disable Skia tracing by default
+debug.hwui.skia_atrace_enabled=false
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
