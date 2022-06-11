@@ -42,6 +42,18 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Doze: check proximity sensor before pulsing from intent? -->
     <bool name="doze_proximity_check_before_pulse_intent">true</bool>
 
+<<<<<<< HEAD
     <!-- Doze: pulse parameter - delay to wait for the screen to wake up after an intent -->
     <integer name="doze_pulse_delay_in_intent">0</integer>
+=======
+    <!-- Doze: check proximity sensor before pulsing? -->
+    <bool name="doze_proximity_check_before_pulse">false</bool>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">6</integer>
+    <integer name="config_maxVisibleNotificationIconsOnLock">7</integer>
+
+    <!-- Smart replies in notifications: Whether we disable the feature unless the app targets P -->
+    <bool name="config_smart_replies_in_notifications_requires_targeting_p">false</bool>
+>>>>>>> 3690e32 (mojito: overlay: Allow all apps to use smart replies)
 </resources>
