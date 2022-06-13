@@ -63,7 +63,7 @@
      <bool name="config_device_wfc_ims_available">true</bool>
 
     <!-- Whether the display blanks itself when transition from a doze to a non-doze state -->
-     <bool name="config_displayBlanksAfterDoze">false</bool>
+     <bool name="config_displayBlanksAfterDoze">true</bool>
 
     <!-- If true, the doze component is not started until after the screen has been turned off
          and the screen off animation has been performed. -->
@@ -560,7 +560,7 @@
     <!-- Flag indicating whether the surface flinger is inefficient
          at performing a blur.  Used by parts of the UI to turn off
          the blur effect where it isn't worth the performance hit.
-         As of Honeycomb, blurring is not supported anymore. -->
+         As of Honeycomb, blurring is not  supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
       
     <!-- Enables or disables fading edges when marquee is enabled in TextView.
