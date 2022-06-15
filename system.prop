@@ -22,13 +22,9 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
-debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
-debug.sf.hw=0
-debug.egl.hw=0
 debug.performance.tuning=1
 persist.hwc.mdpcomp.enable=true
-debug.mdpcomp.logs=0
 dalvik.vm.heapsize=36m
 dev.pm.dyn_samplingrate=1
 persist.demo.hdmirotationlock=false
