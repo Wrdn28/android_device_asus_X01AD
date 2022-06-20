@@ -355,6 +355,17 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+<<<<<<< HEAD
+=======
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+# Pixel Launcher
+PRODUCT_PACKAGES += \
+   PixelLauncher
+
+>>>>>>> ebd7d3e (X01AD: Introduce Modded Pixel Laucher)
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
