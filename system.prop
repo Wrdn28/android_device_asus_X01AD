@@ -140,6 +140,9 @@ persist.mm.sta.enable=0
 #property to enable fingerprint
 persist.qfp=false
 
+# Pre-Rendering
+ro.vendor.perf.scroll_opt=true
+
 #HWUI properties
 ro.hwui.texture_cache_size=72
 ro.hwui.layer_cache_size=48
