@@ -19,12 +19,9 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
-<<<<<<< HEAD
 debug.sf.enable_hwc_vds=1
-=======
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=0
->>>>>>> 8981bff (X01AD: Import recommended pm dex props)
 debug.sf.hw=0
 debug.egl.hw=0
 debug.performance.tuning=1
