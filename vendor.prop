@@ -105,3 +105,5 @@ ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.set_idle_timer_ms=80
 ro.surface_flinger.protected_contents=true
 
+#Deep Sleep
+pm.sleep_mode=1
