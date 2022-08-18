@@ -570,5 +570,15 @@
         <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
         <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
+         
+    <!-- Minimum velocity to 
+    initiate a fling, as measured in 
+    dips per second. --> <dimen 
+    name="config_viewMinFlingVelocity">160dp</dimen>
+ 
+    <!-- Maximum velocity to 
+    initiate a fling, as measured in 
+    dips per second. -->
+    <dimen name="config_viewMaxFlingVelocity">20000dp</dimen>
 
 </resources>

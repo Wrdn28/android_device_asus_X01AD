@@ -254,6 +254,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcrypto
 
+# Improve scrolling
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.scrollingcache=0 \
+    ro.min.fling_velocity=160 \
+    ro.max.fling_velocity=20000
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common \
