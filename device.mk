@@ -369,10 +369,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
-# Pixel Launcher
-PRODUCT_PACKAGES += \
-   PixelLauncher
-
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
