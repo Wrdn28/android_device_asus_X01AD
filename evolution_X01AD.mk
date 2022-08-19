@@ -27,6 +27,12 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+# Pixel Launcher Mod
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+PIXEL_LAUNCHER_VARIANT := tawaret
+ICONS_VARIANT := teamfilesicons
+AOSP_ENHANCER := true
+
 # Device identifiers.
 PRODUCT_NAME := evolution_X01AD
 PRODUCT_DEVICE := X01AD
