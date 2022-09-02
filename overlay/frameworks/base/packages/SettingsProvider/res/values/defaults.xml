@@ -36,4 +36,7 @@
     <!-- Set Window transition scale to 0% by default -->
     <fraction name="def_window_transition_scale">0%</fraction>
 
+    <!-- Set Windoow animator scale to 60% by default -->
+    <fraction name="def_window_animator_scale">60%</fraction>
+
 </resources>
