@@ -73,6 +73,9 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 ro.com.google.rlzbrandcode=ASUP
 ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
+# NFC
+ro.hardware.nfc_nci=nqx.default
+
 #go_defaults
 ro.config.low_ram=false
 pm.dexopt.downgrade_after_inactive_days=10
