@@ -498,7 +498,6 @@
         <item>192.168.50.254</item>
         <item>192.168.51.2</item>
         <item>192.168.51.254</item>
-    </string-array>
 
     <!-- An Array of "[Connection name],[ConnectivityManager.TYPE_xxxx],
          [associated radio-type],[priority],[restoral-timer(ms)],[dependencyMet]  -->
