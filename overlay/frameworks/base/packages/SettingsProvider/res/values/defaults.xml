@@ -30,13 +30,13 @@
     <!-- Disable UI touch sounds by default -->
     <bool name="def_sound_effects_enabled">false</bool>
 
-    <!-- Set Window animation scale to 0% by default -->
-    <fraction name="def_window_animation_scale">0%</fraction>
+    <!-- Set Window animation scale to 70% by default -->
+    <fraction name="def_window_animation_scale">70%</fraction>
 
-    <!-- Set Window transition scale to 0% by default -->
-    <fraction name="def_window_transition_scale">0%</fraction>
+    <!-- Set Window transition scale to 70% by default -->
+    <fraction name="def_window_transition_scale">70%</fraction>
 
-    <!-- Set Windoow animator scale to 60% by default -->
-    <fraction name="def_window_animator_scale">60%</fraction>
+    <!-- Set Windoow animator scale to 80% by default -->
+    <fraction name="def_window_animator_scale">80%</fraction>
 
 </resources>
