@@ -42,6 +42,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 #Deep Sleep
 pm.sleep_mode=1
+vendor.post_boot.parsed=1
 
 # DHA Tunning
 ro.config.dha_tunnable=1
