@@ -2192,13 +2192,11 @@ vendor/lib64/libgnss.so
 vendor/lib64/libgnsspps.so
 vendor/lib64/libgps.utils.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/hw/gatekeeper.msm8953.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/gatekeeper.msm8953.so
+# Gatekeeper - from FP3-user 11 8901.4.A.0010 gms-f74c58a8 release-keys
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|2e33e885b92e413440511049025497945d6b8484
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|71b72d91eb94321a3b35d3e2b03a33e7b50d3b13
+vendor/lib64/hw/gatekeeper.msm8953.so|d760257a98254b9e87ae258e267b1a45a0ed7ecb
 
 # Graphics - from daisy-user-10-QKQ1.191002.002-V11.0.10.0.QDLMIXM-release-keys
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5b006423286008ba9b54b8c29e9ce2ab4b6fa14d
@@ -2260,24 +2258,15 @@ vendor/lib64/libsdm-disp-vndapis.so|b1dede9efa81e8d0374343612ad7ad0d967e8e29
 vendor/lib64/libsdmextension.so|47b7fcfb790df4417654c566af1a8a74d4bf3e2f
 vendor/lib64/libtinyxml2_1.so|56d4d5d0ea010f951de219c7b9fd2c9695a5b9d2
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
-
-# Keystore
-vendor/lib/hw/keystore.msm8953.so
-vendor/lib64/hw/keystore.msm8953.so
+# Keymaster - from FP3-user 11 8901.4.A.0010 gms-f74c58a8 release-keys
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|8bdb9313f8e5faff14d73730fc206803aecd7fbf
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib64/hw/keystore.msm8953.so|83a48633d4530c45e36cfb9cd7f3d63a8a5bc122
+vendor/lib64/libkeymasterdeviceutils.so|e0ce05020bbd5f9ae3666e37fb67826d410e2c7b
+vendor/lib64/libkeymasterprovision.so|af79833a592818e43dfd386ffb4d58e88fa390ec
+vendor/lib64/libkeymasterutils.so|de50a67e773eac6d52cbb061895249c0ca2ed185
+vendor/lib64/libqcbor.so|7da5294a577f5a71ede5b3804a026bf69bd025ee
+vendor/lib64/libqtikeymaster4.so|944ccf8dc4dedbc589084919b55493b952baff12
 
 # Latency - from FP3-user 11 8901.4.A.0010 gms-f74c58a8 release-keys
 -system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|68068cdbd044dca2872284ebcd2909eb74c3a804
