@@ -83,6 +83,9 @@ debug.cpurend.vsync=true
 debug.sf.disable_client_composition_cache=1
 ro.vendor.perf.scroll_opt=true
 
+# DPM
+persist.vendor.dpmhalservice.enable=1
+
 # DRM
 drm.service.enabled=true
 
