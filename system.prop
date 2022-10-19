@@ -25,6 +25,14 @@ DEVICE_PROVISIONED=1
 #
 ro.telephony.default_network=22,22
 
+# Camera
+persist.camera.HAL3.enabled=1
+persist.camera.eis.enabled=1
+persist.camera.ois.enabled=1
+persist.camera.is_mode=4
+persist.camera.stats.test=5
+camera.HAL3.enabled=1
+
 debug.sf.latch_unsignaled=1
 debug.sf.enable_hwc_vds=0
 debug.performance.tuning=1
@@ -236,4 +244,3 @@ ro.mot.eri.losalert.delay=1000
 
 # Storage.xml moment
 persist.sys.binary_xml=false
-
