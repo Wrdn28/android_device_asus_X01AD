@@ -14,3 +14,7 @@ persist.camera.is_type     u:object_r:camera_prop:s0
 persist.cdfinger.ready     u:object_r:vendor_fingerprint_prop:s0
 property.cdfinger.enablesave u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.runin.fp    u:object_r:vendor_fingerprint_prop:s0
+
+# Wifi
+vendor.wlan.driver.config       u:object_r:vendor_wifi_config:s0
+
