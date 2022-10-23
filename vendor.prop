@@ -94,6 +94,12 @@ ro.frp.pst=/dev/block/bootdevice/by-name/config
 ro.com.google.rlzbrandcode=ASUP
 ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
+# Fling Velocity
+ro.vendor.qti.cgroup_follow.enable=true 
+persist.vendor.qti.inputopts.enable=true 
+persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
+
 # NFC
 ro.hardware.nfc_nci=nqx.default
 
