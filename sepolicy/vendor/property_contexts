@@ -26,7 +26,6 @@ persist.vendor.camera.value.lux        u:object_r:vendor_camera_prop:s0
 camera.                                u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                  u:object_r:vendor_camera_prop:s0
 
-
 # PowerHAL
 vendor.powerhal.audio           u:object_r:power_prop:s0
 vendor.powerhal.init            u:object_r:power_prop:s0

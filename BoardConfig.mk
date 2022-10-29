@@ -42,6 +42,7 @@ BOARD_KERNEL_CMDLINE += androidboot.bootdevice=7824900.sdhci
 BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0x78af000
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
 BOARD_KERNEL_CMDLINE += loop.max_part=7
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE :=  2048
@@ -169,7 +170,6 @@ BOARD_ROOT_EXTRA_FOLDERS := factory
 TARGET_BOARD_PLATFORM := msm8953
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := "/proc/tpd_gesture"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties
