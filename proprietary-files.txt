@@ -317,6 +317,7 @@ vendor/lib/libarcsoft_picselfie_algorithm.so
 
 # Camera-bin
 vendor/bin/mm-qcamera-app
+vendor/bin/mm-qcamera-daemon
 
 # Camera-chromatix
 vendor/lib/libchromatix_csidtg_common.so
