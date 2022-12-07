@@ -85,7 +85,7 @@ debug.sf.disable_client_composition_cache=1
 drm.service.enabled=true
 
 # Enforce privapp-permissions whitelist
-ro.control_privapp_permissions=enforce
+ro.control_privapp_permissions=log
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
