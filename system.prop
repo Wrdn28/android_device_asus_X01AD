@@ -244,3 +244,8 @@ ro.mot.eri.losalert.delay=1000
 
 # Storage.xml moment
 persist.sys.binary_xml=false
+
+# Spark-OS
+ro.spark.device.name=ASUS ZENFONE MAX M2
+ro.spark.maintainer=⚡Nishant⚡
+ro.spark.maintainer.username=⚡Nishant⚡
