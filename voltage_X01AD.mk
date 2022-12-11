@@ -28,6 +28,7 @@ $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifiers.
 PRODUCT_NAME := voltage_X01AD
