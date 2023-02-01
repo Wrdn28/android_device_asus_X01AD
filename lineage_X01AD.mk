@@ -21,18 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from X01AD device
 $(call inherit-product, device/asus/X01AD/device.mk)
-RICE_DEVICE := X01AD
-RICE_MAINTAINER := Hirokixd
-RICE_CHIPSET := Snapdragon®632
-SUSHI_BOOTANIMATION := 720
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Inherit some common linege OS stuff.
+# Inherit some common lineage OS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+# RiceDroid Flags
+RICE_DEVICE := X01AD
+RICE_MAINTAINER := Hirokixd
+RICE_CHIPSET := Snapdragon®632
+SUSHI_BOOTANIMATION := 720
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BUILD_APERTURE_CAMERA := true
+RICE_PACKAGE_TYPE := Gapps
 
 # Device identifiers.
 PRODUCT_NAME := lineage_X01AD
