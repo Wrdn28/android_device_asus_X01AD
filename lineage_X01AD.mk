@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2018 The LineageOS Project
+
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +26,6 @@ RICE_MAINTAINER := Hirokixd
 RICE_CHIPSET := Snapdragon®632
 SUSHI_BOOTANIMATION := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_APERTURE_CAMERA := true
 
 # Inherit some common linege OS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
