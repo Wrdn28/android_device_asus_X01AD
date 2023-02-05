@@ -16,6 +16,10 @@
 
 DEVICE_PATH := device/asus/X01AD
 
+
+# Apex
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Arch
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
