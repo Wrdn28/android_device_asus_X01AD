@@ -195,22 +195,6 @@ ro.hwui.text_large_cache_height=1024
 
 # ricedroidOSS stuff
 
-# Display 
-
-# Increase/Reduce screen off blanking delay (default)
-persist.sys.screen.blank_delay=1000
-
-# Increase/Reduce screen wake up delay (default)
-persist.sys.screen.wakeup_delay=0
-
-# Performance
-
-# Increase/Reduce AOSP boostframework default boosting durations  (default)
-persist.sys.powerhal.interaction.max=200
-
-# Increase/Reduce Scarlet boostframework system boost boosting durations (default)
-persist.sys.powerhal.interaction.max_boost=2000
-
 # set cutoff voltage to 3400mV
 ro.cutoff_voltage_mv=3400
 
