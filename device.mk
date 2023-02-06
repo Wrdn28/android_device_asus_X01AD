@@ -22,8 +22,12 @@ $(call inherit-product, vendor/asus/X01AD/X01AD-vendor.mk)
 # Keep this after including updatable_apex.mk
 PRODUCT_COMPRESSED_APEX := false
 
+# Updatable
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apex.updatable=false
+
+# Enable fs-verity
+PRODUCT_PROPERTY_OVERRIDES += ro.apk_verity.mode=2
 
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
@@ -539,3 +543,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI \
     NexusLauncherRelease
+    
+# Zen Parts
+PRODUCT_PACKAGES += \
+    ZenParts
