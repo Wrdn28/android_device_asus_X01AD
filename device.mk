@@ -22,9 +22,6 @@ $(call inherit-product, vendor/asus/X01AD/X01AD-vendor.mk)
 # Keep this after including updatable_apex.mk
 PRODUCT_COMPRESSED_APEX := false
 
-# Enable fs-verity
-PRODUCT_PROPERTY_OVERRIDES += ro.apk_verity.mode=2
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apex.updatable=false
 
