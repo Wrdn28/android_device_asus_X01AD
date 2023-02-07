@@ -31,7 +31,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # RiceDroid Stuff
 RICE_DEVICE := X01AD
 RICE_MAINTAINER := Hirokixd
-RICE_CHIPSET := Snapdragon 632
+RICE_CHIPSET := Snapdragon®632
 RICE_PACKAGE_TYPE := VANILLA
 SUSHI_BOOTANIMATION := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
