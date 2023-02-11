@@ -32,13 +32,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 RICE_DEVICE := X01AD
 RICE_MAINTAINER := Hirokixd
 RICE_CHIPSET := Snapdragon®632
-RICE_PACKAGE_TYPE := GAPPS
+RICE_PACKAGE_TYPE := VANILLA
 SUSHI_BOOTANIMATION := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_USE_PIXEL_FINGERPRINT := true
-TARGET_CORE_GMS := true
-WITH_GMS := true
+
 
 # Device identifiers.
 PRODUCT_NAME := lineage_X01AD
