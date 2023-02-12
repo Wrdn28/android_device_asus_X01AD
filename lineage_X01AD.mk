@@ -44,6 +44,7 @@ TARGET_USE_GOOGLE_TELEPHONY := false
 TARGET_HAS_UDFPS := false
 WITH_GMS := true
 
+
 # Device identifiers.
 PRODUCT_NAME := lineage_X01AD
 PRODUCT_DEVICE := X01AD
