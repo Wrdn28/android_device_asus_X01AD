@@ -29,16 +29,20 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # RiceDroid Stuff
+RICE_BUILDTYPE := COMMUNITY
 RICE_DEVICE := X01AD
 RICE_MAINTAINER := Hirokixd
 RICE_CHIPSET := Snapdragon®632
-RICE_PACKAGE_TYPE := CORE
+RICE_PACKAGE_TYPE := PIXEL
 SUSHI_BOOTANIMATION := 720
+TARGET_ENABLE_BLUR := false
+TARGET_KERNEL_OPTIONAL_LD := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BUILD_APERTURE_CAMERA := true
-TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_USE_PIXEL_FINGERPRINT := false
+TARGET_USE_GOOGLE_TELEPHONY := false
+TARGET_HAS_UDFPS := false
 WITH_GMS := true
-TARGE_CORE_GMS := true
 
 # Device identifiers.
 PRODUCT_NAME := lineage_X01AD
