@@ -16,9 +16,6 @@
 
 DEVICE_PATH := device/asus/X01AD
 
-# Apex
-OVERRIDE_TARGET_FLATTEN_APEX := true
-
 # Arch
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -181,7 +178,8 @@ TARGET_COPY_OUT_VENDOR := vendor
 BOARD_ROOT_EXTRA_FOLDERS := factory
 
 # Platform
-TARGET_BOARD_PLATFORM := msm8953
+TARGET_BOARD_PLATFORM := sdm632
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
@@ -199,9 +197,6 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
-
-# Sensor
-TARGET_USES_DEPTHSENSOR_OVERRIDE := true
 
 # Sepolicy - Common
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
