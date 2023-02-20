@@ -90,24 +90,11 @@ ro.control_privapp_permissions=log
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
-# Gatekeeper
-vendor.gatekeeper.disable_spu=true
+# GMS
+ro.com.google.rlzbrandcode=ASUP
+ro.com.google.rlz_ap_whitelist=y0,y5,y6,y7,y9
 
-# Graphics
-debug.mdpcomp.logs=0
-debug.sdm.support_writeback=0
-debug.sf.latch_unsignaled=0
-debug.sf.enable_gl_backpressure=1
-debug.sf.disable_client_composition_cache=1
-persist.sys.sf.color_saturation=1.0
-ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30
-ro.hardware.egl=adreno
-ro.hardware.vulkan=adreno
-ro.opengles.version=196610
-vendor.gralloc.disable_ubwc=0
-debug.renderengine.backend=skiaglthreaded
-renderthread.skia.reduceopstasksplitting=true
-debug.hwui.renderer=skiagl
+
 
 # IFAAService
 persist.vendor.sys.fp.udfps.location.X_Y=445,1931
