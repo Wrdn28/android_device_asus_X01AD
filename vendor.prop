@@ -147,4 +147,13 @@ pm.sleep_mode=1
 
 vendor.display.disable_rotator_downscale=1
 
+# offsets
+debug.sf.late.sf.duration=27600000 
+debug.sf.late.app.duration=20000000 
+debug.sf.early.sf.duration=27600000 
+debug.sf.early.app.duration=20000000 
+debug.sf.earlyGl.sf.duration=27600000
+debug.sf.earlyGl.app.duration=20000000
 
+# Zygote
+zygote.critical_window.minute=10
