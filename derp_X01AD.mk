@@ -30,10 +30,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # derp flags
 DERP_BUILDTYPE := Unofficial
 EXTRA_UDFPS_ANIMATIONS := false
-TARGET_USES_BLUR := false
 TARGET_BOOT_ANIMATION_RES := 720
 USE_LEGACY_BOOTANIMATION := true
-TARGET_SUPPORTS_BLUR := false
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
