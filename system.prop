@@ -2,6 +2,9 @@
 # system.prop for X01AD
 #
 
+# App
+ro.launcher.blur.appLaunch=0
+
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 
