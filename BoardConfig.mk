@@ -119,7 +119,7 @@ KBUILD_HOST := DroidDev
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
 # Display
-TARGET_SCREEN_DENSITY := 280
+TARGET_SCREEN_DENSITY := 295
 TARGET_USES_ION := true
 TARGET_USES_GRALLOC1 := true
 TARGET_USES_HWC2 := true
@@ -200,7 +200,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 
 # Sepolicy - Common
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-SELINUX_IGNORE_NEVERALLOWS := true
+
 
 # Sepolicy - X01AD
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
