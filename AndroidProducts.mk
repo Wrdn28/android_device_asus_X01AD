@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_X01AD.mk
+    $(LOCAL_DIR)/carbon_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_X01AD-user \
-    havoc_X01AD-userdebug \
-    havoc_X01AD-eng
+    carbon_X01AD-user \
+    carbon_X01AD-userdebug \
+    carbon_X01AD-eng
