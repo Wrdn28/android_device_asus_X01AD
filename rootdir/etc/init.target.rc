@@ -96,8 +96,8 @@ on property:vendor.post_boot.parsed=1
     write /sys/devices/system/cpu/cpu4/cpufreq/schedutil/down_rate_limit_us 20000
 
 # start camera server as daemon
-service qcamerasvr /system/vendor/bin/mm-qcamera-daemon
-    class late_start
+service vendor.qcamerasvr /system/vendor/bin/mm-qcamera-daemon
+    class main
     user camera
     group camera system inet input graphics
 
