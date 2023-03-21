@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/voltage_X01AD.mk
+    $(LOCAL_DIR)/bliss_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    voltage_X01AD-user \
-    voltage_X01AD-userdebug \
-    voltage_X01AD-eng
+    bliss_X01AD-user \
+    bliss_X01AD-userdebug \
+    bliss_X01AD-eng
