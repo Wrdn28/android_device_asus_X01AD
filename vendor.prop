@@ -67,6 +67,9 @@ persist.vendor.camera.ois.enabled=1
 persist.vendor.camera.is_mode=4
 persist.vendor.camera.stats.test=5
 
+# Camera HAL1
+vendor.camera.hal1.packagelist=com.whatsapp,com.whatsapp.w4b,com.facebook.orca,com.instagram.android
+
 # Codec2 switch
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
