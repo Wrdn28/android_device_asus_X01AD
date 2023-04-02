@@ -44,6 +44,9 @@ vendor.display.enable_default_color_mode=1
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.disable_skip_validate=1
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # Charger
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
@@ -180,6 +183,3 @@ ro.vendor.qti.va_aosp.support=1
 vendor.camera.aux.packagelist=org.codeaurora.snapcam
 
 persist.asus.led.on=1
-
-# BPF
-ro.kernel.ebpf.supported=true
