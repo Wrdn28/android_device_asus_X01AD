@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from X01AD device
 $(call inherit-product, device/asus/X01AD/device.mk)
 
-# Inherit some common Pixel OS stuff.
+# Inherit some common OctaviOS stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Set shipping API level
@@ -30,8 +30,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# OctaviOS specific flags
+OCTAVI_BUILD_TYPE := UNOFFICIAL
+OCTAVI_MAINTAINER := Hirokixd
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := false
+
+
 # Device identifiers.
-PRODUCT_NAME := bliss_X01AD
+PRODUCT_NAME := octavi_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus
