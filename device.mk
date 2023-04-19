@@ -26,10 +26,6 @@ PRODUCT_COMPRESSED_APEX := false
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apex.updatable=false
 
-# Enable fs-verity
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.apk_verity.mode=2
-
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
