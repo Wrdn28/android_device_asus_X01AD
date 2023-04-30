@@ -184,9 +184,4 @@ persist.asus.led.on=1
 # BPF
 ro.kernel.ebpf.supported=true
 
-# Havoc
-
-ro.havoc.device.name=Asus Zenfone Max M2
-ro.havoc.group.url=t.me/havocofficial
-ro.havoc.maintainer=Havoc OS CI
-ro.havoc.maintainer.username=@havocofficial
+# End
