@@ -442,6 +442,9 @@ on property:persist.vendor.radio.atfwd.start=false
 on property:vendor.radio.atfwd.start=false
     stop vendor.atfwd
 
+    # Start perf
+    setprop vendor.post_boot.parsed 1
+
 # corefile limit
 on property:persist.debug.trace=1
     mkdir /data/core 0777 root root
