@@ -129,6 +129,9 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 # system prop for UBWC
 vendor.video.disable.ubwc=1
 
+# BPF
+ro.kernel.ebpf.supported=true
+
 # disable PQ feature by default
 vendor.vidc.enc.disable.pq=true
 
@@ -181,7 +184,5 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam
 
 persist.asus.led.on=1
 
-# BPF
-ro.kernel.ebpf.supported=true
 
 # End
