@@ -1,14 +1,2 @@
 allow hal_power_default input_device:dir { read };
-
-# To do powerhint on nodes defined in powerhint.json
-allow hal_power_default sysfs_msm_subsys:dir search;
-allow hal_power_default sysfs_msm_subsys:file rw_file_perms;
-allow hal_power_default sysfs_devices_system_cpu:file rw_file_perms;
-allow hal_power_default device_latency:chr_file rw_file_perms;
-allow hal_power_default debugfs_sched_features:file rw_file_perms;
-allow hal_power_default proc_sysctl_schedboost:file rw_file_perms;
-
-# To get/set powerhal state property
-set_prop(hal_power_default, power_prop)
-
 allow hal_power_default proc_tpd_gesture:file rw_file_perms;
