@@ -108,20 +108,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
     android.hardware.audio@2.0-service \
-<<<<<<< HEAD
-    android.hardware.audio.effect@5.0-impl \
+    android.hardware.audio.effect@6.0-impl \
     android.hardware.soundtrigger@2.2-impl
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
-=======
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.soundtrigger@2.2-impl \
-    audio.a2dp.default \
-    audio.primary.msm8953 \
->>>>>>> 374f9cf (onclite: Switch to Audio HAL V6)
     audio.r_submix.default \
     audio.usb.default \
     libaudioroute \
