@@ -117,4 +117,6 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
     property_override("ro.rising.chipset", "Snapdragon™ 632");
+    // Set bluetooth name
+    property_override("bluetooth.device.default_name", "Zenfone Max M2");
 }
