@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio-impl
 
+# Configstore
+PRODUCT_PACKAGES += \
+    disable_configstore
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
