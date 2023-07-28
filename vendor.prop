@@ -87,9 +87,6 @@ drm.service.enabled=true
 # Enforce privapp-permissions whitelist
 ro.control_privapp_permissions=log
 
-# FS-verity
-ro.apk_verity.mode=2
-
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
