@@ -168,9 +168,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     libstdc++.vendor
 
-PRODUCT_PACKAGES += \
-    Snap
-
 # CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
