@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_X01AD.mk
+    $(LOCAL_DIR)/xdroid_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_X01AD-user \
-    carbon_X01AD-userdebug \
-    carbon_X01AD-eng
+    xdroid_X01AD-user \
+    xdroid_X01AD-userdebug \
+    xdroid_X01AD-eng
