@@ -36,10 +36,6 @@
         <boolean name="allow_holding_video_call" value="true" />
         <boolean name="emergency_sms_support_bool" value="false" />
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
-        <!-- Show VoLTE and VoWIFI for all -->
-        <boolean name="carrier_volte_available_bool" value="true" />
-        <boolean name="carrier_vt_available_bool" value="true" />
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="001" mnc="01">
         <boolean name="carrier_vt_available_bool" value="true" />
