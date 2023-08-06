@@ -38,7 +38,8 @@ TARGET_BUILD_APERTURE_CAMERA := true
 TARGET_USE_PIXEL_FINGERPRINT := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := false
-WITH_GMS := false
+WITH_GMS := true
+TARGET_CORE_GMS := true
 
 # Device identifiers.
 PRODUCT_NAME := lineage_X01AD
