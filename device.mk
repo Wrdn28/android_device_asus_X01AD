@@ -46,14 +46,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 TARGET_SCREEN_HEIGHT := 1520
 TARGET_SCREEN_WIDTH := 720
 
-# Screen density
-
 # Call recording
 PRODUCT_PACKAGES += \
     com.google.android.apps.dialer.call_recording_audio.features.xml
-
-PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
