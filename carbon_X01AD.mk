@@ -49,3 +49,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 11 RQ3A.211001.001 7641976 release-keys"
 
 BUILD_FINGERPRINT :="google/coral/coral:11/RQ3A.211001.001/7641976:user/release-keys"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.carbon.maintainer="Hirokixd28"
