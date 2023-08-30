@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The aospOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,9 +16,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X01AD.mk
+    $(LOCAL_DIR)/aosp_X01AD.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_X01AD-user \
-    lineage_X01AD-userdebug \
-    lineage_X01AD-eng
+    aosp_X01AD-user \
+    aosp_X01AD-userdebug \
+    aosp_X01AD-eng
