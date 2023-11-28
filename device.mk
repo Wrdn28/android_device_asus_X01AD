@@ -354,6 +354,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.factory \
     fstab.qcom \
+    fstab.qcom_ramdisk \
     init.device.rc \
     init.msm.usb.configfs.rc \
     init.power.rc \
