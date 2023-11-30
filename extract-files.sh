@@ -33,6 +33,9 @@ function blob_fixup() {
         product/lib64/lib-imsvideocodec.so)
             grep -q "libgui_shim.so" "${2}" || ${PATCHELF} --add-needed "libgui_shim.so" "${2}"
             ;;
+        vendor/bin/pm-service)
+            grep -q libutils-v33.so "${2}" || "${PATCHELF}" --add-needed "libutils-v33.so" "${2}"
+            ;;
     esac
 }
 
