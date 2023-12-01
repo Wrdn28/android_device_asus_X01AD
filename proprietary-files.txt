@@ -2575,7 +2575,6 @@ vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|5e32c752c9d5d
 
 # Radio - IMS - from daisy-user-10-QKQ1.191002.002-V11.0.10.0.QDLMIXM-release-keys
 etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
--product/app/imssettings/imssettings.apk|6b59b9e517b9e288576616a4799690b8a4c6e76e
 -product/app/uceShimService/uceShimService.apk|a4f64644c7c7f4340745df98d9da5e3243134b21
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|aeaf8d4c7d421bd25a1aca1736980b6e4575c7ce
 product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|d52cdba3a8f1c00098568965c0cbaa03502f961e
