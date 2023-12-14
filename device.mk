@@ -499,7 +499,10 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
 
-# Wifi
+# Viper
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
+# WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service
 
