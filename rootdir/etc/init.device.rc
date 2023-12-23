@@ -79,6 +79,6 @@ on post-fs-data
     write /sys/bus/msm_subsys/devices/subsys3/restart_level "related"
     write /sys/bus/msm_subsys/devices/subsys4/restart_level "related"
 
-on charger
+on property:init.svc.vendor.charger=running
     # Factory
     mount_all /vendor/etc/fstab.factory --early

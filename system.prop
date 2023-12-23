@@ -45,7 +45,6 @@ vendor.display.disable_skip_validate=1
 
 # Charger
 ro.charger.disable_init_blank=true
-ro.charger.enable_suspend=true
 
 #ro.hdmi.enable=true
 #
