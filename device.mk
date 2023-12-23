@@ -104,6 +104,7 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl
 
 PRODUCT_PACKAGES += \
+    audio.primary.msm8953 \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
