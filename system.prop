@@ -33,6 +33,14 @@ persist.camera.is_mode=4
 persist.camera.stats.test=5
 camera.HAL3.enabled=1
 
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.systemuicompilerfilter=speed
+dalvik.vm.image-dex2oat-threads=8
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.dex2oat-threads=8
+
+# Display
 debug.sf.latch_unsignaled=1
 debug.sf.enable_hwc_vds=0
 debug.performance.tuning=1

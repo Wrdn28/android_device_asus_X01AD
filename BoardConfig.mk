@@ -19,7 +19,13 @@ DEVICE_PATH := device/asus/X01AD
 # Apex
 OVERRIDE_TARGET_FLATTEN_APEX := true
 
-# Arch
+# ART
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+
+# Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := arm64-v8a
