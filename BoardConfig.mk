@@ -44,6 +44,7 @@ BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0x78af000
 BOARD_KERNEL_CMDLINE += androidboot.usbconfigfs=true
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 
+BOARD_CUSTOM_BOOTIMG := true
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
