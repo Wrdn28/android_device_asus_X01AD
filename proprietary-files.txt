@@ -2054,12 +2054,8 @@ vendor/etc/permissions/vendor.qti.hardware.factory.xml
 # Fingerprint
 -vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.X01AD
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.X01AD.rc
--vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
--vendor/lib64/hw/cdfinger.default.so
 -vendor/lib64/hw/cdfinger.fingerprint.default.so
--vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.msm8953.so
 -vendor/lib64/hw/fingerprint.focaltech.default.so
--vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # Firmware
 etc/firmware/ice40.bin
