@@ -22,14 +22,27 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 # Inherit from X01AD device
 $(call inherit-product, device/asus/X01AD/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common SuperiorOS Extended stuff.
+$(call inherit-product, vendor/superior/config/common.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+# Rom Stuff
+SYSTEM_OPTIMIZE_JAVA := true
+SYSTEMUI_OPTIMIZE_JAVA := true
+TARGET_FACEUNLOCK_SUPPORTED := true
+TARGE_SUPPORTS_BLUR := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
+
+# GAPPS
+WITH_GMS := false # this is needed to reserve partitions
+WITH_GAPPS := false
+TARGET_INCLUDE_MATLOG := true
+BUILD_WITH_GAPPS := true
+
 # Device identifiers.
-PRODUCT_NAME := lineage_X01AD
+PRODUCT_NAME := superior_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus

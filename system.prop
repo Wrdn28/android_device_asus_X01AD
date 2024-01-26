@@ -63,6 +63,9 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 #minimum duration for offload playback in secs
 audio.offload.min.duration.secs=30
 
+# Maintainer
+ro.spos.maintainer=Hirokixd28
+
 #enable offload audio video playback by default
 audio.offload.video=true
 
