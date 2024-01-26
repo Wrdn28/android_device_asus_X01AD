@@ -32,14 +32,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 TARGET_FACEUNLOCK_SUPPORTED := true
-TARGE_SUPPORTS_BLUR := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # GAPPS
 WITH_GMS := false # this is needed to reserve partitions
 WITH_GAPPS := false
 TARGET_INCLUDE_MATLOG := true
-BUILD_WITH_GAPPS := true
+BUILD_WITH_GAPPS := false
 
 # Device identifiers.
 PRODUCT_NAME := superior_X01AD
