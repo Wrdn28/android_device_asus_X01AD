@@ -23,13 +23,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/asus/X01AD/device.mk)
 
 # Inherit some common Lineage OS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
+HORIZON_MAINTAINER := Hirokixd28
+
 # Device identifiers.
-PRODUCT_NAME := lineage_X01AD
+PRODUCT_NAME := aosp_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus

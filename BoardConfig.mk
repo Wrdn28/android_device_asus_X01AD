@@ -60,7 +60,7 @@ TARGET_KERNEL_OPTIONAL_LD := true
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton
-TARGET_KERNEL_CONFIG := GreenLight_defconfig
+TARGET_KERNEL_CONFIG := X01AD_defconfig
 TARGET_KERNEL_SOURCE := kernel/asus/X01AD
 TARGET_KERNEL_VERSION := 4.9
 
