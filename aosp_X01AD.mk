@@ -29,6 +29,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 HORIZON_MAINTAINER := Hirokixd28
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
