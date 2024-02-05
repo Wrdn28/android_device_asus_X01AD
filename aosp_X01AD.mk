@@ -30,6 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 
 HORIZON_MAINTAINER := Hirokixd28
 CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifiers.
 PRODUCT_NAME := aosp_X01AD
