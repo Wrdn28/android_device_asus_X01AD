@@ -22,7 +22,9 @@ $(call inherit-product, vendor/asus/X01AD/X01AD-vendor.mk)
 # Keep this after including updatable_apex.mk
 PRODUCT_COMPRESSED_APEX := false
 
-# Board                                                                          PRODUCT_USES_QCOM_HARDWARE := true                                               PRODUCT_BOARD_PLATFORM := msm8953
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8953
 TARGET_BOARD_PLATFORM := msm8953
 TARGET_BOARD_SUFFIX := _64
 
@@ -57,8 +59,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom/display \
-    hardware/qcom/media \
+    hardware/qcom/display/msm8996 \
+    hardware/qcom/media/msm8996 \
     vendor/qcom/opensource/audio-hal/primary-hal
 
 # Permissions
@@ -194,7 +196,7 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953 \
     libdisplayconfig \
     libqdMetaData.system \
-    libtinyxml
+    libtinyxml \
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
