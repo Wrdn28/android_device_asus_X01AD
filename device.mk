@@ -36,7 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-p404
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
@@ -52,7 +52,10 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom/display \
+    hardware/qcom/media \
+    vendor/qcom/opensource/audio-hal/primary-hal
 
 # Permissions
 PRODUCT_COPY_FILES += \

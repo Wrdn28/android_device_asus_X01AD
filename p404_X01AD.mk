@@ -22,18 +22,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from X01AD device
 $(call inherit-product, device/asus/X01AD/device.mk)
 
-# Inherit some common Lineage OS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit from Project 404 vendor config
+$(call inherit-product, vendor/404/configs/common.mk)
 
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-HORIZON_MAINTAINER := Hirokixd28
-CUSTOM_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifiers.
-PRODUCT_NAME := aosp_X01AD
+PRODUCT_NAME := p404_X01AD
 PRODUCT_DEVICE := X01AD
 PRODUCT_MANUFACTURER := asus
 PRODUCT_BRAND := asus
