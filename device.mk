@@ -22,6 +22,10 @@ $(call inherit-product, vendor/asus/X01AD/X01AD-vendor.mk)
 # Keep this after including updatable_apex.mk
 PRODUCT_COMPRESSED_APEX := false
 
+# Board                                                                          PRODUCT_USES_QCOM_HARDWARE := true                                               PRODUCT_BOARD_PLATFORM := msm8953
+TARGET_BOARD_PLATFORM := msm8953
+TARGET_BOARD_SUFFIX := _64
+
 # Updatable
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.apex.updatable=false
