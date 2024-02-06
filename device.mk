@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
     android.hardware.bluetooth.audio-impl
 
+# QTI Bluetooth
+include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
+$(callinherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -361,7 +365,8 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
-    android.hardware.power-service-qti \
+    android.hardware.power-service \
+    android.hardware.power-impl\
     vendor.qti.hardware.perf@2.0.vendor \
     android.hardware.power-service.X01AD-libperfmgr
 
