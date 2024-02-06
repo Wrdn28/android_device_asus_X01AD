@@ -199,9 +199,6 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Sensor
 TARGET_USES_DEPTHSENSOR_OVERRIDE := true
 
-# Sepolicy - Common
-include device/qcom/sepolicy-legacy-um/SEPolicy.mk
-
 # Sepolicy - X01AD
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
