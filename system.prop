@@ -39,12 +39,6 @@ dalvik.vm.systemuicompilerfilter=speed
 dalvik.vm.image-dex2oat-threads=8
 dalvik.vm.dex2oat-filter=speed
 dalvik.vm.dex2oat-threads=8
-persist.bg.dexopt.enable=true
-dalvik.vm.dexopt.secondary=true
-pm.dexopt.install=speed-profile
-pm.dexopt.bg-dexopt=speed-profile
-pm.dexopt.boot=verify
-pm.dexopt.first-boot=quicken
 
 # Display
 debug.sf.latch_unsignaled=1
